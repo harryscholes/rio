@@ -1,0 +1,1 @@
+protoc api.proto --gofast_out=plugins=grpc:.
