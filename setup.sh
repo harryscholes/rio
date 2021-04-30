@@ -5,3 +5,6 @@
 # Setup
 brew install protobuf
 (cd && go get github.com/gogo/protobuf/protoc-gen-gofast)
+
+curl -sSL https://zipkin.io/quickstart.sh | bash -s
+java -jar zipkin.jar
